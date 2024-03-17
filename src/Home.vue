@@ -11,7 +11,7 @@ function openBlog() {
 }
 
 function openGitHub() {
-    window.open("https://github.com/ColdRain-Moro", "_blank");
+    window.open("https://github.com/H1yame", "_blank");
 }
 
 function openQQ() {
@@ -30,13 +30,12 @@ function openBiliBili() {
             <div id="content-box">
                 <div id="top-content">
                     <Avatar :src="getAssetsFile()" center />
-                    <h1>Rain</h1>
+                    <h1>Hiyame</h1>
                     <h2>Everything that kills me makes me feel alive.</h2>
-                    <hr>
                     <p>
-                        为有牺牲多壮志，敢教日月换新天。
+                        鹰击长空，鱼翔浅底，万类霜天竞自由。
                         <br>
-                        -「<strong>七律·到韶山</strong>」
+                        -「<strong>沁园春·长沙</strong>」
                     </p>
                 </div>
                 <Button name="Blog" @click="openBlog"></Button>
@@ -45,7 +44,7 @@ function openBiliBili() {
                 <Button name="BiliBili" @click="openBiliBili"></Button>
             </div>
             <div id="bottom">
-                <div>Copyright © by <a href="https://github.com/ColdRain-Moro" target="_blank">Rain</a> All Rights
+                <div>Copyright © by <a href="https://github.com/H1yame" target="_blank">Hiyame</a> All Rights
                     Reserved.</div>
                 <div>Powered by <a href="https://v3.vuejs.org/" target="_blank">Vue.js</a> framework.</div>
             </div>
@@ -117,7 +116,7 @@ h2 {
     user-select: none;
     width: 100%;
     height: 100%;
-    background-image: url(https://api.fantasyzone.cc/tu);
+    background-image: url(https://t.mwm.moe/fj);
     background-size: cover;
 }
 </style>
